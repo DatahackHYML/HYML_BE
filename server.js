@@ -69,11 +69,11 @@ app.post('/api/quiz/score', (req, res) => {
     return dim[majority(group)];
   }).join('');
 
-  const animal = ANIMALS[code] ?? closestAnimal(code).animal;
-  const resolvedCode = ANIMALS[code] ? code : closestAnimal(code).code;
-  const group = getGroup(resolvedCode);
+  const normalizedCode = code[0] + (code[1] === 'T' ? 'C' : code[1]) + code[2] + code[3];
+  const animal = ANIMALS[normalizedCode] ?? closestAnimal(normalizedCode).animal;
+  const group = getGroup(normalizedCode);
 
-  res.json({ code: resolvedCode, animal, group });
+  res.json({ code, animal, group });
 });
 
 app.post('/api/auth/save-result', async (req, res) => {
