@@ -98,7 +98,7 @@ function scoreQuizHandler(req, res) {
 }
 
 async function saveResultHandler(req, res) {
-  const userName = req.body.username;
+  const userName = req.body.trimmedName;
   const userId = req.body.user_id ?? req.body.userId;
   const { code, animal, group } = req.body;
 
