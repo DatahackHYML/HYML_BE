@@ -142,5 +142,13 @@ app.get('/api/leaderboard', async (req, res) => {
   res.json({ leaderboard });
 });
 
+app.get('/argovis', async (req, res) => {
+  const url = 'https://argovis-api.colorado.edu/argo?startDate=2020-01-01T00:00:00Z&endDate=2020-01-15T00:00:00Z&polygon=[[-130,20],[-110,20],[-110,40],[-130,40],[-130,20]]&data=pres,temp';
+  const response = await fetch(url);
+  if (!response.ok) return res.status(response.status).json({ error: `Argovis returned ${response.status}` });
+  const data = await response.json();
+  res.json(data);
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
