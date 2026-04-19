@@ -7,6 +7,15 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const ARGOVIS_BASE_URL =
+  process.env.ARGOVIS_BASE_URL ?? "https://argovis-api.colorado.edu";
+const ARGOVIS_DEFAULT_PARAMS = {
+  startDate: "2020-01-01T00:00:00Z",
+  endDate: "2020-01-15T23:59:59Z",
+  polygon: "[[-130,20],[-110,20],[-110,40],[-130,40],[-130,20]]",
+  data: "pres,temp",
+};
+
 const ANIMALS = {
   DCPS: "Great White Shark",
   DCPF: "Barracuda",
@@ -65,6 +74,25 @@ function getGroup(code) {
 app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
+
+function buildArgovisProfilesUrl(query) {
+  const params = new URLSearchParams();
+
+  for (const [key, defaultValue] of Object.entries(ARGOVIS_DEFAULT_PARAMS)) {
+    const value = query[key] ?? defaultValue;
+    if (value != null && value !== "") {
+      params.set(key, String(value));
+    }
+  }
+
+  for (const [key, value] of Object.entries(query)) {
+    if (value != null && value !== "" && !params.has(key)) {
+      params.set(key, String(value));
+    }
+  }
+
+  return `${ARGOVIS_BASE_URL}/profiles?${params.toString()}`;
+}
 
 function scoreQuizHandler(req, res) {
   const { answers } = req.body;
@@ -246,6 +274,50 @@ async function getUserMissionsHandler(req, res) {
   res.json({ missions });
 }
 
+async function getArgovisProfilesHandler(req, res) {
+  const apiKey = process.env.ARGOVIS_API_KEY;
+
+  if (!apiKey) {
+    return res.status(500).json({
+      error: "ARGOVIS_API_KEY is not configured on the server",
+    });
+  }
+
+  const url = buildArgovisProfilesUrl(req.query);
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "x-argokey": apiKey,
+        Accept: "application/json",
+      },
+      signal: AbortSignal.timeout(15000),
+    });
+
+    const contentType = response.headers.get("content-type") ?? "";
+    const body = contentType.includes("application/json")
+      ? await response.json()
+      : await response.text();
+
+    if (!response.ok) {
+      return res.status(response.status).json({
+        error: "Argovis request failed",
+        details: body,
+      });
+    }
+
+    res.json(body);
+  } catch (error) {
+    const isTimeout = error?.name === "TimeoutError";
+    res.status(isTimeout ? 504 : 502).json({
+      error: isTimeout
+        ? "Argovis request timed out"
+        : "Failed to reach Argovis",
+      details: error.message,
+    });
+  }
+}
+
 app.post("/api/quiz/score", scoreQuizHandler);
 app.post("/quiz/score", scoreQuizHandler);
 
@@ -263,6 +335,9 @@ app.get("/leaderboard", getLeaderboardHandler);
 
 app.get("/api/user/missions", getUserMissionsHandler);
 app.get("/user/missions", getUserMissionsHandler);
+
+app.get("/api/argovis/profiles", getArgovisProfilesHandler);
+app.get("/argovis/profiles", getArgovisProfilesHandler);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
