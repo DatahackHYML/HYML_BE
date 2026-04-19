@@ -55,7 +55,7 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-app.post('/api/quiz/score', (req, res) => {
+function scoreQuizHandler(req, res) {
   const { answers } = req.body;
   if (!Array.isArray(answers) || answers.length !== 16) {
     return res.status(400).json({ error: 'answers must be an array of 16 items' });
@@ -78,60 +78,74 @@ app.post('/api/quiz/score', (req, res) => {
   const group = getGroup(normalizedCode);
 
   res.json({ code, animal, group });
-});
+}
 
-app.post('/api/auth/save-result', async (req, res) => {
-  const { user_id, code, animal, group } = req.body;
+async function saveResultHandler(req, res) {
+  const userId = req.body.user_id ?? req.body.userId;
+  const { code, animal, group } = req.body;
+
+  if (!userId || !code || !animal || !group) {
+    return res.status(400).json({ error: 'user_id, code, animal, and group are required' });
+  }
+
   const { error } = await supabase
     .from('profiles')
     .update({ animal_result: animal, oceanality_code: code, group_name: group })
-    .eq('id', user_id);
+    .eq('id', userId);
   if (error) return res.status(500).json({ error: error.message });
   res.json({ success: true });
-});
+}
 
-app.get('/api/events', async (req, res) => {
+async function getEventsHandler(req, res) {
   const { data, error } = await supabase.from('events').select('*');
   if (error) return res.status(500).json({ error: error.message });
   res.json({ events: data });
-});
+}
 
-app.post('/api/events/confirm-attendance', async (req, res) => {
-  const { user_id, event_id, attend_code } = req.body;
+async function attendEventHandler(req, res) {
+  const userId = req.body.user_id ?? req.body.userId;
+  const eventId = req.body.event_id ?? req.body.eventId;
+  const attendCode = req.body.attend_code ?? req.body.code;
+
+  if (!userId || !eventId || !attendCode) {
+    return res.status(400).json({
+      error: 'user_id, event_id, and attend_code are required',
+    });
+  }
 
   const { data: event, error: fetchError } = await supabase
     .from('events')
     .select('attend_code')
-    .eq('id', event_id)
+    .eq('id', eventId)
     .single();
   if (fetchError) return res.status(500).json({ error: fetchError.message });
 
-  if (event.attend_code !== attend_code) {
+  if (event.attend_code !== attendCode) {
     return res.json({ success: false, message: 'Wrong code' });
   }
 
   const { error: upsertError } = await supabase
     .from('event_signups')
-    .upsert({ user_id, event_id, confirmed: true });
+    .upsert({ user_id: userId, event_id: eventId, confirmed: true });
   if (upsertError) return res.status(500).json({ error: upsertError.message });
 
   const { data: profile, error: profileError } = await supabase
     .from('profiles')
     .select('points')
-    .eq('id', user_id)
+    .eq('id', userId)
     .single();
   if (profileError) return res.status(500).json({ error: profileError.message });
 
   const { error: pointsError } = await supabase
     .from('profiles')
     .update({ points: (profile.points || 0) + 10 })
-    .eq('id', user_id);
+    .eq('id', userId);
   if (pointsError) return res.status(500).json({ error: pointsError.message });
 
   res.json({ success: true, points_earned: 10 });
-});
+}
 
-app.get('/api/leaderboard', async (req, res) => {
+async function getLeaderboardHandler(req, res) {
   const { data, error } = await supabase
     .from('profiles')
     .select('group_name, points');
@@ -148,7 +162,58 @@ app.get('/api/leaderboard', async (req, res) => {
     .sort((a, b) => b.total_points - a.total_points);
 
   res.json({ leaderboard });
-});
+}
+
+async function getUserMissionsHandler(req, res) {
+  const userId = req.query.user_id ?? req.query.userId;
+
+  if (!userId) {
+    return res.status(400).json({ error: 'user_id is required' });
+  }
+
+  const { data: events, error: eventsError } = await supabase
+    .from('events')
+    .select('*');
+  if (eventsError) return res.status(500).json({ error: eventsError.message });
+
+  const { data: signups, error: signupsError } = await supabase
+    .from('event_signups')
+    .select('event_id, confirmed')
+    .eq('user_id', userId);
+  if (signupsError) return res.status(500).json({ error: signupsError.message });
+
+  const confirmedEvents = new Set(
+    (signups || []).filter(signup => signup.confirmed).map(signup => signup.event_id)
+  );
+
+  const missions = (events || []).map(event => ({
+    id: event.id,
+    title: event.title ?? event.name ?? `Event ${event.id}`,
+    description: event.description ?? null,
+    attended: confirmedEvents.has(event.id),
+    points: event.points ?? 10,
+  }));
+
+  res.json({ missions });
+}
+
+app.post('/api/quiz/score', scoreQuizHandler);
+app.post('/quiz/score', scoreQuizHandler);
+
+app.post('/api/auth/save-result', saveResultHandler);
+app.post('/profiles', saveResultHandler);
+
+app.get('/api/events', getEventsHandler);
+app.get('/events', getEventsHandler);
+
+app.post('/api/events/confirm-attendance', attendEventHandler);
+app.post('/events/attend', attendEventHandler);
+
+app.get('/api/leaderboard', getLeaderboardHandler);
+app.get('/leaderboard', getLeaderboardHandler);
+
+app.get('/api/user/missions', getUserMissionsHandler);
+app.get('/user/missions', getUserMissionsHandler);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
