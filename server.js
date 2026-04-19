@@ -16,10 +16,6 @@ const ANIMALS = {
   RCNS: 'Octopus',           RCNF: 'Seahorse',
   RRPS: 'Clownfish',         RRPF: 'Sea Otter',
   RRNS: 'Hermit Crab',       RRNF: 'Coral Polyp',
-  DTPS: 'Orca',              DTPF: 'Hammerhead Shark',
-  DTNS: 'Giant Squid',       DTNF: 'Nautilus',
-  RTPS: 'Humpback Whale',    RTPF: 'Bottlenose Dolphin',
-  RTNS: 'Sea Lion',          RTNF: 'Manatee',
 };
 
 function closestAnimal(code) {
@@ -69,7 +65,7 @@ app.post('/api/quiz/score', (req, res) => {
     return dim[majority(group)];
   }).join('');
 
-  const normalizedCode = code[0] + (code[1] === 'T' ? 'C' : code[1]) + code[2] + code[3];
+  const normalizedCode = code[0] + (code[1] === 'T' ? 'R' : code[1]) + code[2] + code[3];
   const animal = ANIMALS[normalizedCode] ?? closestAnimal(normalizedCode).animal;
   const group = getGroup(normalizedCode);
 
