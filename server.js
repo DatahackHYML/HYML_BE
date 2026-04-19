@@ -104,30 +104,45 @@ async function getEventsHandler(req, res) {
 
 async function attendEventHandler(req, res) {
   const userId = req.body.user_id ?? req.body.userId;
-  const eventId = req.body.event_id ?? req.body.eventId;
   const attendCode = req.body.attend_code ?? req.body.code;
 
-  if (!userId || !eventId || !attendCode) {
+  if (!userId || !attendCode) {
     return res.status(400).json({
-      error: 'user_id, event_id, and attend_code are required',
+      error: 'user_id and attend_code are required',
     });
   }
 
   const { data: event, error: fetchError } = await supabase
     .from('events')
-    .select('attend_code')
-    .eq('id', eventId)
+    .select('id, points')
+    .eq('attend_code', attendCode)
     .single();
-  if (fetchError) return res.status(500).json({ error: fetchError.message });
-
-  if (event.attend_code !== attendCode) {
-    return res.json({ success: false, message: 'Wrong code' });
+  if (fetchError) {
+    if (fetchError.code === 'PGRST116') {
+      return res.json({ success: false, message: 'Wrong code' });
+    }
+    return res.status(500).json({ error: fetchError.message });
   }
+
+  const eventId = event.id;
+  const earnedPoints = event.points ?? 10;
+
+  const { data: existingSignup, error: signupFetchError } = await supabase
+    .from('event_signups')
+    .select('confirmed')
+    .eq('user_id', userId)
+    .eq('event_id', eventId)
+    .maybeSingle();
+  if (signupFetchError) return res.status(500).json({ error: signupFetchError.message });
 
   const { error: upsertError } = await supabase
     .from('event_signups')
     .upsert({ user_id: userId, event_id: eventId, confirmed: true });
   if (upsertError) return res.status(500).json({ error: upsertError.message });
+
+  if (existingSignup?.confirmed) {
+    return res.json({ success: true, points_earned: 0, message: 'Attendance already confirmed' });
+  }
 
   const { data: profile, error: profileError } = await supabase
     .from('profiles')
@@ -138,11 +153,11 @@ async function attendEventHandler(req, res) {
 
   const { error: pointsError } = await supabase
     .from('profiles')
-    .update({ points: (profile.points || 0) + 10 })
+    .update({ points: (profile.points || 0) + earnedPoints })
     .eq('id', userId);
   if (pointsError) return res.status(500).json({ error: pointsError.message });
 
-  res.json({ success: true, points_earned: 10 });
+  res.json({ success: true, points_earned: earnedPoints });
 }
 
 async function getLeaderboardHandler(req, res) {
