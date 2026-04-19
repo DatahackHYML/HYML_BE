@@ -16,7 +16,22 @@ const ANIMALS = {
   RCNS: 'Octopus',           RCNF: 'Seahorse',
   RRPS: 'Clownfish',         RRPF: 'Sea Otter',
   RRNS: 'Hermit Crab',       RRNF: 'Coral Polyp',
+  DTPS: 'Orca',              DTPF: 'Hammerhead Shark',
+  DTNS: 'Giant Squid',       DTNF: 'Nautilus',
+  RTPS: 'Humpback Whale',    RTPF: 'Bottlenose Dolphin',
+  RTNS: 'Sea Lion',          RTNF: 'Manatee',
 };
+
+function closestAnimal(code) {
+  let best = null;
+  let bestScore = -1;
+  for (const key of Object.keys(ANIMALS)) {
+    let matches = 0;
+    for (let i = 0; i < 4; i++) if (key[i] === code[i]) matches++;
+    if (matches > bestScore) { bestScore = matches; best = key; }
+  }
+  return { code: best, animal: ANIMALS[best] };
+}
 
 function majority(group) {
   const aCount = group.filter(a => a === 'A').length;
@@ -54,10 +69,11 @@ app.post('/api/quiz/score', (req, res) => {
     return dim[majority(group)];
   }).join('');
 
-  const animal = ANIMALS[code];
-  const group = getGroup(code);
+  const animal = ANIMALS[code] ?? closestAnimal(code).animal;
+  const resolvedCode = ANIMALS[code] ? code : closestAnimal(code).code;
+  const group = getGroup(resolvedCode);
 
-  res.json({ code, animal, group });
+  res.json({ code: resolvedCode, animal, group });
 });
 
 app.post('/api/auth/save-result', async (req, res) => {
