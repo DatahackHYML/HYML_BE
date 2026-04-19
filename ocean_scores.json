@@ -1,0 +1,952 @@
+{
+  "2021": {
+    "year": 2021,
+    "level": 1,
+    "pts_needed": 0,
+    "baseline_year": 2021,
+    "overall_health": 60.0,
+    "overall_summary": "Warmest surface waters and lowest clarity on record \u2014 significant ecosystem stress.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 12.8745,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.0,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9482,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.0,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 97.5391,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 0.0,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0415,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 0.0,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.722,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 0.0,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2020": {
+    "year": 2020,
+    "level": 2,
+    "pts_needed": 100,
+    "baseline_year": 2021,
+    "overall_health": 50.0,
+    "overall_summary": "Continued warming trend with declining oxygen in nearshore waters.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 13.2882,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 3.21,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9359,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.04,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 104.9212,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 7.57,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0448,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 7.89,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.6001,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -16.88,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2019": {
+    "year": 2019,
+    "level": 3,
+    "pts_needed": 200,
+    "baseline_year": 2021,
+    "overall_health": 60.0,
+    "overall_summary": "Warm anomalies and high turbidity suppressed coastal upwelling productivity.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 14.2238,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 10.48,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9797,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.09,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 102.0705,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 4.65,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0457,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 10.13,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5449,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -24.53,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2018": {
+    "year": 2018,
+    "level": 4,
+    "pts_needed": 300,
+    "baseline_year": 2021,
+    "overall_health": 50.0,
+    "overall_summary": "Elevated temperatures and turbidity indicate persistent climate stress.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 14.4015,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 11.86,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9521,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.01,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 104.6537,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 7.29,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0451,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 8.59,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5541,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -23.25,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2017": {
+    "year": 2017,
+    "level": 5,
+    "pts_needed": 400,
+    "baseline_year": 2021,
+    "overall_health": 70.0,
+    "overall_summary": "Strong upwelling event brought clearer waters and improved conditions.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 14.3349,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 11.34,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.899,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.14,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 104.7925,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 7.44,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0452,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 8.82,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.3509,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -51.4,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2016": {
+    "year": 2016,
+    "level": 6,
+    "pts_needed": 500,
+    "baseline_year": 2021,
+    "overall_health": 40.0,
+    "overall_summary": "Post-El Ni\u00f1o recovery with mixed signals across ocean health indicators.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 14.534,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 12.89,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.879,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.2,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 109.768,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 12.54,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.044,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 5.9,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5548,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -23.16,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2015": {
+    "year": 2015,
+    "level": 7,
+    "pts_needed": 600,
+    "baseline_year": 2021,
+    "overall_health": 70.0,
+    "overall_summary": "Severe marine heat wave \u2014 warm blob devastated CA coastal ecosystem.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 14.2139,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 10.4,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.8455,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.3,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 110.7369,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 13.53,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.043,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 3.41,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.3705,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -48.68,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2014": {
+    "year": 2014,
+    "level": 8,
+    "pts_needed": 700,
+    "baseline_year": 2021,
+    "overall_health": 50.0,
+    "overall_summary": "Early warming signals with good oxygen levels but rising turbidity.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 14.3262,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 11.28,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9128,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.1,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 108.0692,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 10.8,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0463,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 11.57,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5563,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -22.95,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2013": {
+    "year": 2013,
+    "level": 9,
+    "pts_needed": 800,
+    "baseline_year": 2021,
+    "overall_health": 60.0,
+    "overall_summary": "Below-average productivity with low fluorescence and high turbidity.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 12.5933,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -2.18,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9629,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.04,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 94.8853,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -2.72,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.033,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -20.52,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5473,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -24.2,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2012": {
+    "year": 2012,
+    "level": 10,
+    "pts_needed": 900,
+    "baseline_year": 2021,
+    "overall_health": 50.0,
+    "overall_summary": "Low salinity anomaly and reduced oxygen reflected La Ni\u00f1a aftermath.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 12.7956,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.61,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 34.0101,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 0.18,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 91.8732,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -5.81,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0254,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -38.88,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5451,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -24.5,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2011": {
+    "year": 2011,
+    "level": 11,
+    "pts_needed": 1000,
+    "baseline_year": 2021,
+    "overall_health": 40.0,
+    "overall_summary": "Lowest dissolved oxygen on record \u2014 widespread hypoxic stress events.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 12.0012,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -6.78,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 34.0121,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 0.19,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 87.4193,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -10.38,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0232,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -44.22,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5043,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -30.15,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2010": {
+    "year": 2010,
+    "level": 12,
+    "pts_needed": 1100,
+    "baseline_year": 2021,
+    "overall_health": 70.0,
+    "overall_summary": "Strong upwelling restored nutrients; excellent oxygen and productivity.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 13.3756,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 3.89,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9956,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.14,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 101.5829,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 4.15,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0382,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -8.04,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.0051,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -99.29,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2009": {
+    "year": 2009,
+    "level": 13,
+    "pts_needed": 1200,
+    "baseline_year": 2021,
+    "overall_health": 80.0,
+    "overall_summary": "High phytoplankton activity and good oxygen supported rich marine life.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 12.9907,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.9,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9313,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.05,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 103.7764,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 6.39,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0607,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 46.17,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.519,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -28.12,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2008": {
+    "year": 2008,
+    "level": 14,
+    "pts_needed": 1300,
+    "baseline_year": 2021,
+    "overall_health": 90.0,
+    "overall_summary": "Clearest water on record with strong upwelling \u2014 peak ecosystem health.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 12.8857,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.09,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9475,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.0,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 102.3979,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 4.98,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.059,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 42.04,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.291,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -59.7,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2007": {
+    "year": 2007,
+    "level": 15,
+    "pts_needed": 1400,
+    "baseline_year": 2021,
+    "overall_health": 70.0,
+    "overall_summary": "Healthy upwelling year with high fluorescence and stable conditions.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 12.9294,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 0.43,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 34.0152,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 0.2,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 95.8035,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -1.78,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0655,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 57.6,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.4069,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -43.64,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2006": {
+    "year": 2006,
+    "level": 16,
+    "pts_needed": 1500,
+    "baseline_year": 2021,
+    "overall_health": 60.0,
+    "overall_summary": "Peak phytoplankton productivity supporting rich food web structure.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 13.5323,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 5.11,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.9259,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.07,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 106.5451,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 9.23,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0634,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 52.55,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5554,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -23.07,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2005": {
+    "year": 2005,
+    "level": 17,
+    "pts_needed": 1600,
+    "baseline_year": 2021,
+    "overall_health": 40.0,
+    "overall_summary": "High dissolved oxygen and strong productivity \u2014 excellent conditions.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 14.1019,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 9.53,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.8699,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.23,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 123.6963,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 26.82,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0237,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -43.03,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.5645,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -21.81,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2004": {
+    "year": 2004,
+    "level": 18,
+    "pts_needed": 1700,
+    "baseline_year": 2021,
+    "overall_health": 50.0,
+    "overall_summary": "Good oxygen levels and moderate clarity reflected healthy upwelling.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 13.7536,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": 6.83,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.8495,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.29,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 111.9035,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": 14.73,
+        "arrow": "\u2191",
+        "arrow_color": "#4CAF50"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0134,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -67.71,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.6448,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -10.69,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  },
+  "2003": {
+    "year": 2003,
+    "level": 19,
+    "pts_needed": 1800,
+    "baseline_year": 2021,
+    "overall_health": 50.0,
+    "overall_summary": "Baseline era \u2014 low turbidity and stable conditions off San Diego coast.",
+    "metrics": {
+      "Temperature (\u00b0C)": {
+        "raw_value": 14.2486,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": 10.67,
+        "arrow": "\u2191",
+        "arrow_color": "#F44336"
+      },
+      "Salinity (PSU)": {
+        "raw_value": 33.8757,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -0.21,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      },
+      "Dissolved Oxygen (\u00b5M)": {
+        "raw_value": 97.5008,
+        "label": "Fair",
+        "color": "#FF9800",
+        "pct_change": -0.04,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Fluorescence (V)": {
+        "raw_value": 0.0051,
+        "label": "Poor",
+        "color": "#F44336",
+        "pct_change": -87.69,
+        "arrow": "\u2193",
+        "arrow_color": "#F44336"
+      },
+      "Beam Attenuation": {
+        "raw_value": 0.3606,
+        "label": "Good",
+        "color": "#4CAF50",
+        "pct_change": -50.06,
+        "arrow": "\u2193",
+        "arrow_color": "#4CAF50"
+      }
+    }
+  }
+}
