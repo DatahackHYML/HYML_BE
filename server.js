@@ -36,10 +36,11 @@ function majority(group) {
 
 function getGroup(code) {
   const dim1 = code[0]; // D or R
-  const dim3 = code[2]; // P or N
-  if (dim1 === 'D' && dim3 === 'P') return 'Hunters';
-  if (dim1 === 'D' && dim3 === 'N') return 'Wanderers';
-  if (dim1 === 'R' && dim3 === 'P') return 'Guardians';
+  const dim2 = code[1]; // C or R (since it's normalized)
+  
+  if (dim1 === 'D' && dim2 === 'C') return 'Hunters';
+  if (dim1 === 'D' && dim2 === 'R') return 'Wanderers';
+  if (dim1 === 'R' && dim2 === 'C') return 'Guardians';
   return 'Builders';
 }
 
