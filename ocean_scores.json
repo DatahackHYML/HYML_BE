@@ -1,0 +1,2909 @@
+{
+  "1": {
+    "year": 2021,
+    "level": 1,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "The 2021 California coastal ocean health is generally stable, supporting ecosystem wellbeing and species protection.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Within safe range",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for species",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Slightly high particles",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Ocean health in 2021 supports efficient predator-prey dynamics.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Optimal for hunting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for predators",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Adequate for metabolism",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited prey indication",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear waters for ambush",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2021.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Comfortable for turtles",
+            "color": "#FF9800"
+          },
+          "Salinity (PSU)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Stable for manta rays",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 30,
+            "label": "Poor",
+            "reason": "Murky for jellyfish",
+            "color": "#F44336"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally stable for our reef habitats in 2021.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for hermit crab breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton for food",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.906,
+      "Salinity (PSU)": 33.9482,
+      "Dissolved Oxygen (\u00b5M)": 97.5391,
+      "Fluorescence (V)": 0.0415,
+      "Beam Attenuation": 0.7286
+    }
+  },
+  "2": {
+    "year": 2020,
+    "level": 2,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally stable, supporting species wellbeing in 2020.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Balanced for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton stress",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear waters for seahorses",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Hunters' ocean health is fair due to balanced prey and predator conditions in 2020.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Optimal for hunting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Stable for predators",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for prey",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate prey visibility",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for migratory species in 2020.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtles",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for manta rays",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally stable for our reef habitats in 2020.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for hermit crab breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton for food",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 9.0192,
+      "Salinity (PSU)": 33.9359,
+      "Dissolved Oxygen (\u00b5M)": 104.9212,
+      "Fluorescence (V)": 0.0448,
+      "Beam Attenuation": 0.6182
+    }
+  },
+  "3": {
+    "year": 2019,
+    "level": 3,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally good, supporting species wellbeing in 2019.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Optimal for marine life",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for species",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Adequate for whales",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Some sediment impact",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2019.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Warmest on record",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Near average levels",
+            "color": "#FF9800"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Supports marine life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Phytoplankton thrive",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Some sediment presence",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is good for our reef habitat in 2019.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Ideal for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for our species",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Supports our community",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Healthy phytoplankton levels",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some sediment affects clarity",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 9.3752,
+      "Salinity (PSU)": 33.9797,
+      "Dissolved Oxygen (\u00b5M)": 102.0705,
+      "Fluorescence (V)": 0.0457,
+      "Beam Attenuation": 0.5751
+    }
+  },
+  "4": {
+    "year": 2018,
+    "level": 4,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally good for species protection in 2018.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Moderate phytoplankton",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some sediment impact",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Ocean health in 2018 supports efficient predator-prey dynamics.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Optimal for hunting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Stable for predators",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for metabolism",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited prey indicator",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2018.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtle migration",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Stable for manta ray habitat",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for flying fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton for jellyfish",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity for navigation",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally good for our reef habitats in 2018.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for our species",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton imbalance",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Slightly murky waters",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 9.1445,
+      "Salinity (PSU)": 33.9521,
+      "Dissolved Oxygen (\u00b5M)": 104.6537,
+      "Fluorescence (V)": 0.0451,
+      "Beam Attenuation": 0.5703
+    }
+  },
+  "5": {
+    "year": 2017,
+    "level": 5,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "The 2017 California coastal ocean health is generally favorable for species protection and ecosystem wellbeing.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear water for seahorses",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Ocean health in 2017 supports efficient predator-prey dynamics.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Optimal for hunting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for predators",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for metabolism",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited prey visibility",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for Wanderers in 2017, with mixed conditions for migration and biodiversity",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtle nesting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for manta ray habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for fish migration",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Low phytoplankton for jellyfish",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally stable for our reef community in 2017.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for hermit crab breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton for food",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 9.0515,
+      "Salinity (PSU)": 33.899,
+      "Dissolved Oxygen (\u00b5M)": 104.7925,
+      "Fluorescence (V)": 0.0452,
+      "Beam Attenuation": 0.367
+    }
+  },
+  "6": {
+    "year": 2016,
+    "level": 6,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally good for species protection in 2016.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 95,
+            "label": "Good",
+            "reason": "Abundant for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for phytoplankton",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some sediment for seahorses",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for Wanderers in 2016, with mixed conditions affecting migration routes and biodiversity.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Ideal for sea turtles",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Slightly low for manta rays",
+            "color": "#FF9800"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for flying fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton for jellyfish",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally good for our reef habitat in 2016.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for sea life",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Plenty for fish friends",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some algae growth",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear water prevails",
+            "color": "#4CAF50"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 9.37,
+      "Salinity (PSU)": 33.879,
+      "Dissolved Oxygen (\u00b5M)": 109.768,
+      "Fluorescence (V)": 0.044,
+      "Beam Attenuation": 0.5769
+    }
+  },
+  "7": {
+    "year": 2015,
+    "level": 7,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally stable, supporting species wellbeing in 2015.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for dolphin habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for seahorse survival",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton growth",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear waters for octopus",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Ocean health in 2015 supports efficient predator-prey dynamics.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Optimal for hunting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Average for prey distribution",
+            "color": "#FF9800"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for energetic hunts",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton prey",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2015.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtle migration",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Near minimum, affects ray habitats",
+            "color": "#FF9800"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for fish and jellies",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton for food",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 40,
+            "label": "Poor",
+            "reason": "High sediment, hurts visibility",
+            "color": "#F44336"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally stable for our reef community in 2015.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for hermit crab breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton for food",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.9368,
+      "Salinity (PSU)": 33.8455,
+      "Dissolved Oxygen (\u00b5M)": 110.7369,
+      "Fluorescence (V)": 0.043,
+      "Beam Attenuation": 0.3884
+    }
+  },
+  "8": {
+    "year": 2014,
+    "level": 8,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "The 2014 California coastal ocean health is generally favorable for species protection and ecosystem wellbeing.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear water for seahorses",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2014.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for turtles",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Stable for manta rays",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for flying fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Some sediment for jellyfish",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally good for our reef habitats in 2014.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for polyps",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 9.171,
+      "Salinity (PSU)": 33.9128,
+      "Dissolved Oxygen (\u00b5M)": 108.0692,
+      "Fluorescence (V)": 0.0463,
+      "Beam Attenuation": 0.5716
+    }
+  },
+  "9": {
+    "year": 2013,
+    "level": 9,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally stable, supporting species wellbeing in 2013.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphin habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for seahorse survival",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton growth",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Some sediment affects octopus",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for migratory species in 2013.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Suitable for turtles",
+            "color": "#FF9800"
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Stable for rays",
+            "color": "#FF9800"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Abundant for fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear for jellyfish",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is fair for our reef habitat in 2013.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for polyps",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Some phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.4168,
+      "Salinity (PSU)": 33.9629,
+      "Dissolved Oxygen (\u00b5M)": 94.8853,
+      "Fluorescence (V)": 0.033,
+      "Beam Attenuation": 0.5702
+    }
+  },
+  "10": {
+    "year": 2012,
+    "level": 10,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "The 2012 ocean health is generally favorable for species protection and ecosystem wellbeing.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for seahorses",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Ocean health in 2012 supports moderate predator efficiency for Hunters",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Favors some prey growth",
+            "color": "#FF9800"
+          },
+          "Salinity (PSU)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Stable environment",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for predators",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate prey visibility",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health in 2012 supports our free-spirited migration routes.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtle nesting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for ray habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for fish breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Limited phytoplankton blooms",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.179,
+      "Salinity (PSU)": 34.0101,
+      "Dissolved Oxygen (\u00b5M)": 91.8732,
+      "Fluorescence (V)": 0.0254,
+      "Beam Attenuation": 0.5637
+    }
+  },
+  "11": {
+    "year": 2011,
+    "level": 11,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is fair, requiring careful species protection in 2011.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Ideal for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Low for seahorses",
+            "color": "#FF9800"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate for phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Concerning for octopus habitats",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Ocean health in 2011 supports efficient predator-prey dynamics.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Optimal for hunting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for predators",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Low for peak performance",
+            "color": "#FF9800"
+          },
+          "Fluorescence (V)": {
+            "score": 30,
+            "label": "Poor",
+            "reason": "Limited prey visibility",
+            "color": "#F44336"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2011.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Ideal for sea turtles",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for manta rays",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Low for flying fish",
+            "color": "#FF9800"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate for jellyfish",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Variable for migration",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is fair for our reef habitat in 2011.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Ideal for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Stable for our species",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Low for sea life",
+            "color": "#FF9800"
+          },
+          "Fluorescence (V)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Healthy phytoplankton",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Some water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 7.6217,
+      "Salinity (PSU)": 34.0121,
+      "Dissolved Oxygen (\u00b5M)": 87.4193,
+      "Fluorescence (V)": 0.0232,
+      "Beam Attenuation": 0.5242
+    }
+  },
+  "12": {
+    "year": 2010,
+    "level": 12,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "The 2010 ocean health is generally favorable for species protection and ecosystem wellbeing.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 95,
+            "label": "Good",
+            "reason": "Clear water for seahorses",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Ocean health in 2010 supports efficient predator-prey dynamics.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Optimal for hunting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for predators",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for metabolism",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited prey visibility",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 95,
+            "label": "Good",
+            "reason": "Clear waters for ambush",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2010.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Suitable for turtles",
+            "color": "#FF9800"
+          },
+          "Salinity (PSU)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Stable for manta rays",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Clear waters for jellyfish",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally stable for our reef community in 2010.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for hermit crab breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton for food",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 95,
+            "label": "Good",
+            "reason": "Clear water for clownfish visibility",
+            "color": "#4CAF50"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 7.9769,
+      "Salinity (PSU)": 33.9956,
+      "Dissolved Oxygen (\u00b5M)": 101.5829,
+      "Fluorescence (V)": 0.0382,
+      "Beam Attenuation": 0.0053
+    }
+  },
+  "13": {
+    "year": 2009,
+    "level": 13,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally stable, supporting species wellbeing in 2009.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Balanced for phytoplankton",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some sediment affects seahorses",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2009.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtle migration",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Stable for manta ray habitat",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for flying fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Adequate for jellyfish blooms",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Variable for ocean currents",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is fair for our reef habitat in 2009.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for polyps",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Slightly murky waters",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.8568,
+      "Salinity (PSU)": 33.9313,
+      "Dissolved Oxygen (\u00b5M)": 103.7764,
+      "Fluorescence (V)": 0.0607,
+      "Beam Attenuation": 0.5427
+    }
+  },
+  "14": {
+    "year": 2008,
+    "level": 14,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally stable, supporting our beloved species in 2008.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Phytoplankton for food",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some sediment affects seahorses",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health in 2008 supports our free-spirited migration routes.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Ideal for turtle nesting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for ray habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for fish breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Affects jellyfish food supply",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Impacts visibility for navigation",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is fair for our delicate reef habitats in 2008.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for our species",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton imbalance",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Slightly murky waters",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.7688,
+      "Salinity (PSU)": 33.9475,
+      "Dissolved Oxygen (\u00b5M)": 102.3979,
+      "Fluorescence (V)": 0.059,
+      "Beam Attenuation": 0.3146
+    }
+  },
+  "15": {
+    "year": 2007,
+    "level": 15,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally good for species protection in 2007.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for seahorses",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 95,
+            "label": "Good",
+            "reason": "Optimal for phytoplankton",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some sediment harm",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2007.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Suitable for turtles",
+            "color": "#FF9800"
+          },
+          "Salinity (PSU)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Ideal for manta rays",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Phytoplankton thrive",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Some sediment affects jellyfish",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is stable, supporting our reef habitat and community",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for hermit crab breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 95,
+            "label": "Good",
+            "reason": "Indicates healthy phytoplankton",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some sediment affects water clarity",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.5354,
+      "Salinity (PSU)": 34.0152,
+      "Dissolved Oxygen (\u00b5M)": 95.8035,
+      "Fluorescence (V)": 0.0655,
+      "Beam Attenuation": 0.4322
+    }
+  },
+  "16": {
+    "year": 2006,
+    "level": 16,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally stable, supporting our beloved species.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for dolphin habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for seahorse breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Moderate phytoplankton growth",
+            "color": "#4CAF50"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some sediment affects octopus",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for migratory species in 2006.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtles",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for rays",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Adequate for fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Some sediment impact",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally stable for our reef community in 2006.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for hermit crab breathing",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton for food",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.894,
+      "Salinity (PSU)": 33.9259,
+      "Dissolved Oxygen (\u00b5M)": 106.5451,
+      "Fluorescence (V)": 0.0634,
+      "Beam Attenuation": 0.5788
+    }
+  },
+  "17": {
+    "year": 2005,
+    "level": 17,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "The 2005 ocean health is generally favorable for species protection and ecosystem wellbeing.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Optimal for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear water for seahorses",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for migratory species in 2005.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtles",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for rays",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Abundant for fish",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is good for our reef habitat in 2005.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for polyps",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 100,
+            "label": "Good",
+            "reason": "Abundant for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear water prevails",
+            "color": "#4CAF50"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 8.966,
+      "Salinity (PSU)": 33.8699,
+      "Dissolved Oxygen (\u00b5M)": 123.6963,
+      "Fluorescence (V)": 0.0237,
+      "Beam Attenuation": 0.4871
+    }
+  },
+  "18": {
+    "year": 2004,
+    "level": 18,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Ocean health is generally good for species protection in 2004.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for whales",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Stable for dolphins",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Sufficient for sea life",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton stress",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear water for seahorses",
+            "color": "#4CAF50"
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2004.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtle migration",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Near average for ray habitats",
+            "color": "#FF9800"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Abundant for fish and jellies",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Low phytoplankton for food",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity found",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally stable for our reef community in 2004.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 85,
+            "label": "Good",
+            "reason": "Supports healthy fish populations",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Some phytoplankton imbalance",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Clear water for hermit crabs",
+            "color": "#4CAF50"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 9.0849,
+      "Salinity (PSU)": 33.8495,
+      "Dissolved Oxygen (\u00b5M)": 111.9035,
+      "Fluorescence (V)": 0.0134,
+      "Beam Attenuation": 0.6633
+    }
+  },
+  "19": {
+    "year": 2003,
+    "level": 19,
+    "groups": {
+      "Guardians": {
+        "overall_summary": "Could not retrieve ocean health summary.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Salinity (PSU)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Fluorescence (V)": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "color": "#FF9800",
+            "reason": "Could not retrieve score."
+          }
+        }
+      },
+      "Hunters": {
+        "overall_summary": "Hunters' ocean health is fair due to balanced conditions.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Optimal for hunting",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Stable for predators",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Adequate for prey",
+            "color": "#FF9800"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate prey visibility",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Wanderers": {
+        "overall_summary": "Ocean health is fair for free-spirited wanderers in 2003.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Suitable for turtle migration",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Stable for ray habitats",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Adequate for fish breathing",
+            "color": "#FF9800"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Limited phytoplankton bloom",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 50,
+            "label": "Fair",
+            "reason": "Moderate water clarity",
+            "color": "#FF9800"
+          }
+        }
+      },
+      "Builders": {
+        "overall_summary": "Ocean health is generally stable for our reef community in 2003.",
+        "features": {
+          "Temperature (\u00b0C)": {
+            "score": 80,
+            "label": "Good",
+            "reason": "Comfortable for coral growth",
+            "color": "#4CAF50"
+          },
+          "Salinity (PSU)": {
+            "score": 90,
+            "label": "Good",
+            "reason": "Ideal for sea otter habitat",
+            "color": "#4CAF50"
+          },
+          "Dissolved Oxygen (\u00b5M)": {
+            "score": 70,
+            "label": "Good",
+            "reason": "Sufficient for hermit crab",
+            "color": "#4CAF50"
+          },
+          "Fluorescence (V)": {
+            "score": 40,
+            "label": "Fair",
+            "reason": "Low phytoplankton for clownfish",
+            "color": "#FF9800"
+          },
+          "Beam Attenuation": {
+            "score": 60,
+            "label": "Fair",
+            "reason": "Moderate water clarity issues",
+            "color": "#FF9800"
+          }
+        }
+      }
+    },
+    "raw_values": {
+      "Temperature (\u00b0C)": 9.1079,
+      "Salinity (PSU)": 33.8757,
+      "Dissolved Oxygen (\u00b5M)": 97.5008,
+      "Fluorescence (V)": 0.0051,
+      "Beam Attenuation": 0.3817
+    }
+  }
+}

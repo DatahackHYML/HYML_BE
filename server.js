@@ -229,6 +229,33 @@ app.get('/leaderboard', getLeaderboardHandler);
 
 app.get('/api/user/missions', getUserMissionsHandler);
 app.get('/user/missions', getUserMissionsHandler);
+// ─── Ocean Health ─────────────────────────────────────────────────────────────
+const oceanScores = require('./ocean_scores.json');
+
+app.get('/api/ocean-health', (req, res) => {
+  const level = parseInt(req.query.level);
+  const group = req.query.group;
+
+  if (!level || !group) {
+    return res.status(400).json({ error: 'Missing level or group query param' });
+  }
+
+  const levelData = oceanScores.find(l => l.level === level);
+  if (!levelData) return res.status(404).json({ error: 'Level not found' });
+
+  const groupData = levelData.groups[group];
+  if (!groupData) return res.status(404).json({ error: 'Group not found' });
+
+  res.json({
+    year: levelData.year,
+    level: levelData.level,
+    raw_values: levelData.raw_values,
+    overall_summary: groupData.overall_summary,
+    features: groupData.features,
+  });
+});
+// ─────────────────────────────────────────────────────────────────────────────
+
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
