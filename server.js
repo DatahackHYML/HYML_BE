@@ -91,7 +91,7 @@ function buildArgovisProfilesUrl(query) {
     }
   }
 
-  return `${ARGOVIS_BASE_URL}/profiles?${params.toString()}`;
+  return `${ARGOVIS_BASE_URL}/argo?${params.toString()}`;
 }
 
 function scoreQuizHandler(req, res) {
