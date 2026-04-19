@@ -31,7 +31,14 @@ function closestAnimal(code) {
 
 function majority(group) {
   const aCount = group.filter(a => a === 'A').length;
-  return aCount >= group.length / 2 ? 'A' : 'B';
+  
+  // If it's a 2-2 tie, use the first answer of the group as the tie-breaker
+  if (aCount === 2) {
+    return group[0];
+  }
+  
+  // Otherwise, strict majority wins
+  return aCount > 2 ? 'A' : 'B';
 }
 
 function getGroup(code) {
