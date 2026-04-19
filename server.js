@@ -340,26 +340,26 @@ app.get("/api/argovis/profiles", getArgovisProfilesHandler);
 app.get("/argovis/profiles", getArgovisProfilesHandler);
 
 // ─── Ocean Health ─────────────────────────────────────────────────────────────
-app.get('/api/ocean-health', async (req, res) => {
+app.get("/api/ocean-health", async (req, res) => {
   const year = parseInt(req.query.year);
-  if (!year) return res.status(400).json({ error: 'Missing ?year=YYYY' });
+  if (!year) return res.status(400).json({ error: "Missing ?year=YYYY" });
 
   const { data, error } = await supabase
-    .from('ocean_health')
-    .select('*')
-    .eq('year', year)
+    .from("ocean_health")
+    .select("*")
+    .eq("year", year)
     .single();
 
   if (error) return res.status(500).json({ error: error.message });
-  if (!data)  return res.status(404).json({ error: `No data for year ${year}` });
+  if (!data) return res.status(404).json({ error: `No data for year ${year}` });
   res.json(data);
 });
 
-app.get('/api/ocean-health/all', async (req, res) => {
+app.get("/api/ocean-health/all", async (req, res) => {
   const { data, error } = await supabase
-    .from('ocean_health')
-    .select('year, level, pts_needed, overall_health, overall_summary')
-    .order('year', { ascending: false });
+    .from("ocean_health")
+    .select("year, level, pts_needed, overall_health, overall_summary")
+    .order("year", { ascending: false });
 
   if (error) return res.status(500).json({ error: error.message });
   res.json(data);
