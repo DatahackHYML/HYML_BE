@@ -335,6 +335,26 @@ app.get("/leaderboard", getLeaderboardHandler);
 
 app.get("/api/user/missions", getUserMissionsHandler);
 app.get("/user/missions", getUserMissionsHandler);
+app.get('/api/ocean-health', async (req, res) => {
+  const year = parseInt(req.query.year);
+  if (!year) return res.status(400).json({ error: 'Missing ?year=YYYY' });
+  const { data, error } = await supabase
+    .from('ocean_health')
+    .select('*')
+    .eq('year', year)
+    .single();
+  if (error) return res.status(500).json({ error: error.message });
+  if (!data) return res.status(404).json({ error: `No data for year ${year}` });
+  res.json(data);
+});
+app.get("/api/ocean-health", async (req, res) => {
+  const year = parseInt(req.query.year);
+  if (!year) return res.status(400).json({ error: "Missing ?year=YYYY" });
+  const { data, error } = await supabase.from("ocean_health").select("*").eq("year", year).single();
+  if (error) return res.status(500).json({ error: error.message });
+  if (!data) return res.status(404).json({ error: `No data for year ${year}` });
+  res.json(data);
+});
 
 app.get("/api/argovis/profiles", getArgovisProfilesHandler);
 app.get("/argovis/profiles", getArgovisProfilesHandler);
